@@ -1,16 +1,21 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>Scorecard</ion-title>
+  <ion-toolbar color="primary">
+    <ion-title>Score Card</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-
+<ion-content #content>
+  <div class="overview" slot="fixed">
+    <ion-row>
+      <ion-col><span class="title">Customer ID: </span><span class="value">{{customerId}}</span></ion-col>
+      <ion-col><span class="title">Total Score: </span><span class="value">{{totalScore}}</span></ion-col>
+    </ion-row>
+  </div>
   <app-accordian>
-    <app-panel *ngFor="let scorecard of scorecards">
-      <ion-item header [detail]="true">
+    <app-panel #panel="panelRef" *ngFor="let scorecard of scorecards" [ngClass]="{ expanded: panel.showPanelBody}" (onClick)="onPanelClick($event)">
+      <ion-item header [detail]="true" [detailIcon]="panel.showPanelBody?'arrow-down':'arrow-forward'" [ngClass]="{ 'panel-expanded': panel.showPanelBody}">
         <ion-label>
-          <h6>{{scorecard.topic}}</h6>
+          <h5>{{scorecard.topic}}</h5>
           <p>Id - {{scorecard.id}}</p>
           <p>Date - {{scorecard.date}}</p>
           <p>Total score - {{scorecard.total_score}}</p>
@@ -20,7 +25,7 @@
         <ion-list>
           <ion-item *ngFor="let question of (scorecard.question_answers | keyvalue)">
             <ion-label>
-              <h6>{{question.value['questions']}}</h6>
+              <h5 class="ion-text-wrap">{{question.value['questions']}}</h5>
               <p>{{question.value['points']}}</p>
             </ion-label>
           </ion-item>

@@ -15,6 +15,9 @@ export class ScorecardService {
         "status": 200,
         "data": {
             "scorecard": [
+
+                //below one item is commented as question_answers type should be an object as infered from other entries in this array. 
+
                 // {
                 //     "date": "2019-11-02",
                 //     "match_id": 106,
@@ -226,6 +229,209 @@ export class ScorecardService {
                         "39": {
                             "questions": "Who will win the match?",
                             "points": 100
+                        }
+                    }
+                },
+                {
+                    "date": "2019-11-09",
+                    "match_id": 119,
+                    "short_date": "09th Nov",
+                    "topic": "TOT vs SHU",
+                    "total_score": 200,
+                    "question_answers": {
+                        "40": {
+                            "questions": "Which team will score the first goal?",
+                            "points": 0
+                        },
+                        "41": {
+                            "questions": "Who will have more  ball possession in the end?",
+                            "points": 100
+                        },
+                        "42": {
+                            "questions": "Will this match result in a tie?",
+                            "points": 0
+                        },
+                        "43": {
+                            "questions": "Will there be an offside called for SHU in first half?",
+                            "points": 100
+                        },
+                        "44": {
+                            "questions": "Will SHU  be awarded a Penalty in first half?",
+                            "points": 0
+                        }
+                    }
+                },
+                {
+                    "date": "2019-11-09",
+                    "match_id": 119,
+                    "short_date": "09th Nov",
+                    "topic": "TOT vs SHU",
+                    "total_score": 200,
+                    "question_answers": {
+                        "40": {
+                            "questions": "Which team will score the first goal?",
+                            "points": 0
+                        },
+                        "41": {
+                            "questions": "Who will have more  ball possession in the end?",
+                            "points": 100
+                        },
+                        "42": {
+                            "questions": "Will this match result in a tie?",
+                            "points": 0
+                        },
+                        "43": {
+                            "questions": "Will there be an offside called for SHU in first half?",
+                            "points": 100
+                        },
+                        "44": {
+                            "questions": "Will SHU  be awarded a Penalty in first half?",
+                            "points": 0
+                        }
+                    }
+                },
+                {
+                    "date": "2019-11-09",
+                    "match_id": 119,
+                    "short_date": "09th Nov",
+                    "topic": "TOT vs SHU",
+                    "total_score": 200,
+                    "question_answers": {
+                        "40": {
+                            "questions": "Which team will score the first goal?",
+                            "points": 0
+                        },
+                        "41": {
+                            "questions": "Who will have more  ball possession in the end?",
+                            "points": 100
+                        },
+                        "42": {
+                            "questions": "Will this match result in a tie?",
+                            "points": 0
+                        },
+                        "43": {
+                            "questions": "Will there be an offside called for SHU in first half?",
+                            "points": 100
+                        },
+                        "44": {
+                            "questions": "Will SHU  be awarded a Penalty in first half?",
+                            "points": 0
+                        }
+                    }
+                },
+                {
+                    "date": "2019-11-09",
+                    "match_id": 119,
+                    "short_date": "09th Nov",
+                    "topic": "TOT vs SHU",
+                    "total_score": 200,
+                    "question_answers": {
+                        "40": {
+                            "questions": "Which team will score the first goal?",
+                            "points": 0
+                        },
+                        "41": {
+                            "questions": "Who will have more  ball possession in the end?",
+                            "points": 100
+                        },
+                        "42": {
+                            "questions": "Will this match result in a tie?",
+                            "points": 0
+                        },
+                        "43": {
+                            "questions": "Will there be an offside called for SHU in first half?",
+                            "points": 100
+                        },
+                        "44": {
+                            "questions": "Will SHU  be awarded a Penalty in first half?",
+                            "points": 0
+                        }
+                    }
+                },
+                {
+                    "date": "2019-11-09",
+                    "match_id": 119,
+                    "short_date": "09th Nov",
+                    "topic": "TOT vs SHU",
+                    "total_score": 200,
+                    "question_answers": {
+                        "40": {
+                            "questions": "Which team will score the first goal?",
+                            "points": 0
+                        },
+                        "41": {
+                            "questions": "Who will have more  ball possession in the end?",
+                            "points": 100
+                        },
+                        "42": {
+                            "questions": "Will this match result in a tie?",
+                            "points": 0
+                        },
+                        "43": {
+                            "questions": "Will there be an offside called for SHU in first half?",
+                            "points": 100
+                        },
+                        "44": {
+                            "questions": "Will SHU  be awarded a Penalty in first half?",
+                            "points": 0
+                        }
+                    }
+                },
+                {
+                    "date": "2019-11-09",
+                    "match_id": 119,
+                    "short_date": "09th Nov",
+                    "topic": "TOT vs SHU",
+                    "total_score": 200,
+                    "question_answers": {
+                        "40": {
+                            "questions": "Which team will score the first goal?",
+                            "points": 0
+                        },
+                        "41": {
+                            "questions": "Who will have more  ball possession in the end?",
+                            "points": 100
+                        },
+                        "42": {
+                            "questions": "Will this match result in a tie?",
+                            "points": 0
+                        },
+                        "43": {
+                            "questions": "Will there be an offside called for SHU in first half?",
+                            "points": 100
+                        },
+                        "44": {
+                            "questions": "Will SHU  be awarded a Penalty in first half?",
+                            "points": 0
+                        }
+                    }
+                },
+                {
+                    "date": "2019-11-09",
+                    "match_id": 119,
+                    "short_date": "09th Nov",
+                    "topic": "TOT vs SHU",
+                    "total_score": 200,
+                    "question_answers": {
+                        "40": {
+                            "questions": "Which team will score the first goal?",
+                            "points": 0
+                        },
+                        "41": {
+                            "questions": "Who will have more  ball possession in the end?",
+                            "points": 100
+                        },
+                        "42": {
+                            "questions": "Will this match result in a tie?",
+                            "points": 0
+                        },
+                        "43": {
+                            "questions": "Will there be an offside called for SHU in first half?",
+                            "points": 100
+                        },
+                        "44": {
+                            "questions": "Will SHU  be awarded a Penalty in first half?",
+                            "points": 0
                         }
                     }
                 },
