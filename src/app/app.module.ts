@@ -6,9 +6,11 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { AccordianComponent } from './components/accordian/accordian.component';
+import { PanelComponent } from './components/accordian/panel/panel.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, AccordianComponent, PanelComponent],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
