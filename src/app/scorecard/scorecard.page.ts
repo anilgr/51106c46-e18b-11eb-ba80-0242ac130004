@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ScorecardService } from '../services/scorecard/scorecard.service';
 
 @Component({
   selector: 'app-scorecard',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ScorecardPage implements OnInit {
 
-  constructor() { }
+  constructor(private scorecardService: ScorecardService) { }
 
   ngOnInit() {
+    this.scorecardService.getScorecardData().subscribe((res)=>{
+      console.log(res)
+    })
   }
 
 }
