@@ -2,7 +2,8 @@
   <div (click)="toggle()">
     <ng-content select="[header]"></ng-content>
   </div>
-  <div [hidden]="!showPanelBody">
+  <div #panelmarker></div>
+  <div *ngIf="showPanelBody">
     <ng-content select="[body]"></ng-content>
   </div>
 </div>

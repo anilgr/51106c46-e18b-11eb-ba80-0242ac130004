@@ -1,4 +1,4 @@
-import { AfterContentInit, Component, ContentChildren, OnInit } from '@angular/core';
+import { AfterContentInit, Component, ContentChildren } from '@angular/core';
 import { PanelComponent } from './panel/panel.component';
 
 @Component({
@@ -16,13 +16,15 @@ export class AccordianComponent implements AfterContentInit {
       p.panelShowEvent.subscribe((shown) => {
         if (shown) {
           this.closeAllExcept(p);
+          setTimeout(()=>{
+            p.onClickPanel()
+          })
         }
       })
     })
   }
 
   closeAllExcept(panel) {
-    console.log(panel)
     this.panels.forEach((p) => {
       if (p !== panel) {
         p.hide();
