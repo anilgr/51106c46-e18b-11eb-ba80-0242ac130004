@@ -1,5 +1,7 @@
 {
   "name": "big_ocean_assignment",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
