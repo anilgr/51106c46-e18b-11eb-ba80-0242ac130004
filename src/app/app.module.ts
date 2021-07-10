@@ -10,7 +10,7 @@ import { AccordianComponent } from './components/accordian/accordian.component';
 import { PanelComponent } from './components/accordian/panel/panel.component';
 
 @NgModule({
-  declarations: [AppComponent, AccordianComponent, PanelComponent],
+  declarations: [AppComponent],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
