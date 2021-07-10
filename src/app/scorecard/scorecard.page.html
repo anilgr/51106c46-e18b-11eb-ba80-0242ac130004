@@ -16,7 +16,16 @@
           <p>Total score - {{scorecard.total_score}}</p>
         </ion-label>
       </ion-item>
-      <div body>panel conent</div>
+      <div body>
+        <ion-list>
+          <ion-item *ngFor="let question of (scorecard.question_answers | keyvalue)">
+            <ion-label>
+              <h6>{{question.value['questions']}}</h6>
+              <p>{{question.value['points']}}</p>
+            </ion-label>
+          </ion-item>
+        </ion-list>
+      </div>
     </app-panel>
   </app-accordian>
 

@@ -15,55 +15,55 @@ export class ScorecardService {
         "status": 200,
         "data": {
             "scorecard": [
-                {
-                    "date": "2019-11-02",
-                    "match_id": 106,
-                    "short_date": "02nd Nov",
-                    "topic": "AVL vs LIV",
-                    "total_score": 195,
-                    "question_answers": [
-                        {
-                            "questions": "Will LIV tally the scoreboard by scoring a goal in first half?",
-                            "points": 0
-                        },
-                        {
-                            "questions": "Will AVL score one more goal in first half?",
-                            "points": 0
-                        },
-                        {
-                            "questions": "Will AVL  be called for an offside in first half?",
-                            "points": 100
-                        },
-                        {
-                            "questions": "Which team will have maximum shots on target at the end?",
-                            "points": 100
-                        },
-                        {
-                            "questions": "Who will win the match?",
-                            "points": 100
-                        },
-                        {
-                            "questions": "Powerplay 1",
-                            "points": -150
-                        },
-                        {
-                            "questions": "Powerplay 2",
-                            "points": -40
-                        },
-                        {
-                            "questions": "Powerplay 3",
-                            "points": 80
-                        },
-                        {
-                            "questions": "Powerplay 4",
-                            "points": -75
-                        },
-                        {
-                            "questions": "Powerplay 5",
-                            "points": 80
-                        }
-                    ]
-                },
+                // {
+                //     "date": "2019-11-02",
+                //     "match_id": 106,
+                //     "short_date": "02nd Nov",
+                //     "topic": "AVL vs LIV",
+                //     "total_score": 195,
+                //     "question_answers": [
+                //         {
+                //             "questions": "Will LIV tally the scoreboard by scoring a goal in first half?",
+                //             "points": 0
+                //         },
+                //         {
+                //             "questions": "Will AVL score one more goal in first half?",
+                //             "points": 0
+                //         },
+                //         {
+                //             "questions": "Will AVL  be called for an offside in first half?",
+                //             "points": 100
+                //         },
+                //         {
+                //             "questions": "Which team will have maximum shots on target at the end?",
+                //             "points": 100
+                //         },
+                //         {
+                //             "questions": "Who will win the match?",
+                //             "points": 100
+                //         },
+                //         {
+                //             "questions": "Powerplay 1",
+                //             "points": -150
+                //         },
+                //         {
+                //             "questions": "Powerplay 2",
+                //             "points": -40
+                //         },
+                //         {
+                //             "questions": "Powerplay 3",
+                //             "points": 80
+                //         },
+                //         {
+                //             "questions": "Powerplay 4",
+                //             "points": -75
+                //         },
+                //         {
+                //             "questions": "Powerplay 5",
+                //             "points": 80
+                //         }
+                //     ]
+                // },
                 {
                     "date": "2019-11-02",
                     "match_id": 111,
