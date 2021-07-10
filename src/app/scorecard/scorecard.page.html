@@ -6,4 +6,18 @@
 
 <ion-content>
 
+  <app-accordian>
+    <app-panel *ngFor="let scorecard of scorecards">
+      <ion-item header [detail]="true">
+        <ion-label>
+          <h6>{{scorecard.topic}}</h6>
+          <p>Id - {{scorecard.id}}</p>
+          <p>Date - {{scorecard.date}}</p>
+          <p>Total score - {{scorecard.total_score}}</p>
+        </ion-label>
+      </ion-item>
+      <div body>panel conent</div>
+    </app-panel>
+  </app-accordian>
+
 </ion-content>
